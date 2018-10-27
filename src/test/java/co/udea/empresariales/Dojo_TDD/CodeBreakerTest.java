@@ -1,6 +1,7 @@
 package co.udea.empresariales.Dojo_TDD;
 
 import junit.framework.TestCase;
+import co.udea.empresariales.Dojo_TDD.CodeBreaker;
 
 public class CodeBreakerTest extends TestCase {
 	CodeBreaker codeBreaker = new CodeBreaker("1234");

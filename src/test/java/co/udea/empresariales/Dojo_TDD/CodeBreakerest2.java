@@ -1,11 +1,11 @@
-package Test;
+package co.udea.empresariales.Dojo_TDD;
+import co.udea.empresariales.Dojo_TDD.CodeBreaker;
+import static org.junit.Assert.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
-
-class CodeBreakerTest {
-
+public class CodeBreakerest2 {
+	
 	CodeBreaker codeBreaker = new CodeBreaker("1234");
 
 	@Test
@@ -13,7 +13,7 @@ class CodeBreakerTest {
 		String answer = codeBreaker.guess("1234");
 		assertEquals("XXXX", answer);
 	}
-	
+
 	@Test
 	void first_match() {
 		String answer = codeBreaker.guess("1987");
@@ -95,4 +95,5 @@ class CodeBreakerTest {
 		String answer = codeBreaker.guess("1523");
 		assertEquals("X", answer);
 	}
+
 }
